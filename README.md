@@ -2,13 +2,6 @@
 
 This is a real-time accident detection and alert system built using the ESP32 microcontroller. It uses an **ADXL335 accelerometer** to detect sudden acceleration (crashes) and a **NEO-6M GPS module** to determine the exact location of the incident. Upon detecting a potential accident, the system automatically sends location and status information via **Bluetooth** to a paired mobile device or computer.
 
-## 📦 Features
-
-- 📍 Real-time accident detection using acceleration threshold
-- 🛰️ GPS-based location tracking
-- 🔗 Bluetooth message transmission (ESP32 classic Bluetooth)
-- ⏱️ Smart flag-resetting system to avoid repeated alerts
-- 🧠 Embedded roll, pitch, and yaw calculations (extendable for future use)
 
 ## 🛠️ Hardware Components
 
